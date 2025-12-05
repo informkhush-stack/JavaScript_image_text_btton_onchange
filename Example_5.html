@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner {
+            height: 80vh;
+            width: 100%;
+            background-color: wheat;
+            position: relative;
+        }
+
+        .img1 {
+            height: 10vh;
+            width: 10%;
+            background-color: aqua;
+            position: absolute;
+            left: 20%;
+            top: 60vh;
+
+        }
+
+        .img2 {
+            height: 10vh;
+            width: 10%;
+            background-color: rgb(39, 133, 133);
+            position: absolute;
+            left: 40%;
+            top: 60vh;
+
+
+        }
+
+        .img3 {
+            height: 10vh;
+            width: 10%;
+            background-color: rgb(145, 179, 179);
+            position: absolute;
+            left: 60%;
+            top: 60vh;
+
+
+        }
+
+        .img4 {
+            height: 10vh;
+            width: 10%;
+            background-color: rgb(54, 56, 56);
+            position: absolute;
+            left: 80%;
+            top: 60vh;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner"><img id="banner" src="Banner.jpg" alt="" height="100%" width="100%"></div>
+    <div class="img1"><img onclick="document.getElementById('banner').src='img1.jpg'" src="img1.jpg" alt=""
+            height="100%" width="100%"></div>
+    <div class="img2"><img onclick="document.getElementById('banner').src='img2.jpg'" src="img2.jpg" alt=""
+            height="100%" width="100%"></div>
+    <div class="img3"><img onclick="document.getElementById('banner').src='img3.jpg'" src="img3.jpg" alt=""
+            height="100%" width="100%"></div>
+    <div class="img4"><img onclick="document.getElementById('banner').src='Banner.jpg'" src="Banner.jpg" alt=""
+            height="100%" width="100%"></div>
+
+</body>
+
+</html>
